@@ -1,4 +1,4 @@
-define( [ 'jquery', 'core/theme-app', 'core/addons' ], function( $, App, Addons ) {
+define( [ 'core/theme-app', 'core/addons' ], function( App, Addons ) {
 
 	App.filter( 'template-args', function ( template_args, view_type, view_template ) {
 		
